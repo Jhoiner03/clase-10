@@ -1,0 +1,110 @@
+/*Estilos generales de las paginas*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* voy a poner estilo al header*/
+header{
+    background-color: rgb(4, 4, 64);
+    color: aliceblue;
+    padding: 20px 0;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-link{
+    display: flex;
+    gap: 20px;
+}
+.nav-link a{
+    color: aliceblue;
+    font-weight: bold;
+}
+/*HERO LOS ESTILOS */
+.hero{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 80px 0;
+}
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.hero-text{
+    flex: 1;
+    min-width: 300px;
+}
+.hero-text h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+.hero-text p{
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    max-width: 550px;
+}
+.hero-buttons{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.btn{
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+}
+.btn-primary{
+    background-color: rgb(31, 30, 32);
+    color: aliceblue;
+}
+.btn-primary:hover{
+    background-color: brown;
+}
+.btn-secondary{
+    border: 2px solid white;
+    color: white;
+}
+.btn-secondary:hover{
+    background-color: black;
+}
+.hero-imagen{
+    display: flex;
+    flex: 1;
+    min-width: 300px;
+    justify-content: center;
+}
+.hero-card{
+    background-color: rgb(33, 23, 163);
+    padding: 30px;
+    border-radius: 15px;
+    
+}
+.hero-card h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.hero-card p{
+    font-weight: bold;
+}
